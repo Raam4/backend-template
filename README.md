@@ -35,6 +35,7 @@ Incluye:
 
 ## Por hacer
 
+- Uso de RBAC en controladores.
 - Manejo customizado de errores y excepciones.
 - Modularización de métodos comunes (servicios y controladores).
-- Método de registro (sign up). 
+- Método de registro (sign up).
