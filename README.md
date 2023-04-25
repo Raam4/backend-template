@@ -31,3 +31,10 @@ Incluye:
 - Métodos de subida y descarga de archivos.
 - Logger en base de datos de request POST y PUT/PATCH.
 - Configuración de SSL para producción (comentado en main.ts).
+
+
+## Por hacer
+
+- Manejo customizado de errores y excepciones.
+- Modularización de métodos comunes (servicios y controladores).
+- Método de registro (sign up). 
