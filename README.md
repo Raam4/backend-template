@@ -30,5 +30,4 @@ Incluye:
 - Ruteo de aplicación Frontend.
 - Métodos de subida y descarga de archivos.
 - Logger en base de datos de request POST y PUT/PATCH.
-- Validación de datos con DTOs.
 - Configuración de SSL para producción (comentado en main.ts).
