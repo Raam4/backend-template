@@ -9,11 +9,13 @@ import { RutasModule } from './modules/auth-rbac/rutas/rutas.module';
 import { AccessTokenGuard } from './common/guards/accessToken.guard';
 import { LoggingInterceptor } from './common/interceptors/logging.interceptor';
 import { NullifyMiddleware } from './common/middleware/nullify.middleware';
+import { DatabaseModule } from './database/database.module';
 
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
     AuthModule,
+    DatabaseModule,
     FilesModule,
     LogsModule,
     RolesModule,

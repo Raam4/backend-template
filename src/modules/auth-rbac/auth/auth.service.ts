@@ -14,7 +14,7 @@ export class AuthService {
   ){}
 
   async login(authDto: AuthDto): Promise<any> {
-    const user = await this.usuarioService.findOne(authDto.username);
+    const user = await this.usuarioService.findOneByUsername(authDto.username);
     if(!user) throw new BadRequestException('El usuario no existe');
     const match = await bcrypt.compare(authDto.password, user.password);
     if(!match) throw new BadRequestException('Verifique su contraseña');
