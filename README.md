@@ -5,16 +5,16 @@ Template Backend idealmente para utilizar en conjunto con el [Template Frontend 
 
 ## Instalación
 
-Crear la base en localhost, completar .env.example y renombrar (a .env).
-Ejemplo en localhost:
-MYSQL_HOST=localhost
-MYSQL_PORT=3306
-MYSQL_USER=[user]
-MYSQL_PASSWORD=[password]
-MYSQL_DATABASE=[nombre de base]
-JWT_SECRET=secret
-HOST_API=http://localhost:3005/api
-
+Crear la base en localhost, completar .env.example y renombrar (a .env).<br />
+Ejemplo en localhost:<br />
+MYSQL_HOST=localhost<br />
+MYSQL_PORT=3306<br />
+MYSQL_USER=[user]<br />
+MYSQL_PASSWORD=[password]<br />
+MYSQL_DATABASE=[nombre de base]<br />
+JWT_SECRET=secret<br />
+HOST_API=http://localhost:3005/api<br />
+<br />
 Ejecutar los siguientes comandos:
 ```bash
 $ npm install
