@@ -1,6 +1,6 @@
 ## Descripción
 
-Template Frontend idealmente para utilizar en conjunto con el [Template Frontend de React](https://github.com/DesarrolloCipo/frontend-template).
+Template Backend idealmente para utilizar en conjunto con el [Template Frontend de React](https://github.com/DesarrolloCipo/frontend-template).
 
 
 ## Instalación
@@ -39,3 +39,9 @@ Incluye:
 - Manejo customizado de errores y excepciones.
 - Modularización de métodos comunes (servicios y controladores).
 - Método de registro (sign up).
+
+## Videos y tutoriales
+- [TypeScript Crash Course](https://youtu.be/BCg4U1FzODs)
+- [NestJS Crash Course](https://youtu.be/wqhNoDE6pb4)
+- [API with NestJS](https://wanago.io/courses/api-with-nestjs/)
+- [Curso práctico0 NestJS](https://youtu.be/NYoCbihISxw)
