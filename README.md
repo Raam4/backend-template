@@ -44,4 +44,4 @@ Incluye:
 - [TypeScript Crash Course](https://youtu.be/BCg4U1FzODs)
 - [NestJS Crash Course](https://youtu.be/wqhNoDE6pb4)
 - [API with NestJS](https://wanago.io/courses/api-with-nestjs/)
-- [Curso práctico0 NestJS](https://youtu.be/NYoCbihISxw)
+- [Curso práctico NestJS](https://youtu.be/NYoCbihISxw)
