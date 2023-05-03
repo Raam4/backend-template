@@ -9,7 +9,9 @@ export class Usuario {
     @Column()
     id_rol: string;
 
-    @Column({ unique: true })
+    @Column({
+        unique: true
+    })
     username: string;
 
     @Column()
@@ -21,7 +23,7 @@ export class Usuario {
     @Column({ default: true })
     reset: boolean;
 
-    @DeleteDateColumn({ type: 'date' })
+    @DeleteDateColumn({ type: 'timestamp' })
     fecha_baja: string;
 
     @ManyToOne(() => Role, (rol: Role) => rol.usuarios)
