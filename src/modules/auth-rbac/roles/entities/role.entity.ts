@@ -4,7 +4,7 @@ import { Ruta } from "../../rutas/entities/ruta.entity";
 
 @Entity({ name: "roles" })
 export class Role {
-    @PrimaryColumn({ length: 10 })
+    @PrimaryColumn({ length: 12 })
     id: string;
 
     //relations
