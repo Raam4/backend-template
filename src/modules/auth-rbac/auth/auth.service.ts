@@ -14,10 +14,13 @@ export class AuthService {
   ){}
 
   async login(authDto: AuthDto): Promise<any> {
+    if(authDto.username == null || authDto.password == null){
+      throw new BadRequestException('Verifique sus credenciales');
+    }
     const user = await this.usuarioService.findOneByUsername(authDto.username);
-    if(!user) throw new BadRequestException('El usuario no existe');
+    if(!user) throw new BadRequestException('Verifique sus credenciales');
     const match = await bcrypt.compare(authDto.password, user.password);
-    if(!match) throw new BadRequestException('Verifique su contraseña');
+    if(!match) throw new BadRequestException('Verifique sus credenciales');
     const token = await this.generateToken(user.id, user.username, user.id_rol);
     const { password, ...userData } = user;
     return { token, userData };

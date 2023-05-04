@@ -1,5 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
+import * as cookieParser from 'cookie-parser';
 
 /* import { ExpressAdapter } from '@nestjs/platform-express';
 import * as fs from 'fs';
@@ -20,7 +21,11 @@ async function bootstrap() {
     AppModule,
     /* new ExpressAdapter(server), */
   );
-  app.enableCors();
+  app.use(cookieParser());
+  app.enableCors({
+    credentials: true,
+    origin: true,
+  });
   app.setGlobalPrefix('api');
   await app.listen(3000); //comment this line to use https
 
