@@ -1,6 +1,6 @@
 ## Descripción
 
-Template Backend idealmente para utilizar en conjunto con el [Template Frontend de React](https://github.com/DesarrolloCipo/frontend-template).
+Template Backend con autenticación y autorización implementadas.
 
 
 ## Instalación y puesta en marcha
